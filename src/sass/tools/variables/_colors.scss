@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    Semantic color variables
+    https://anotheruiguy.gitbooks.io/sassintherealworld_book-i/content/handy-tools/setting-variables.html
+\*------------------------------------*/
+
+//colors & brand
+$black: #000000;
+$white: #ffffff;
+$light-grey: #f2eee4;
+
+$bright-red: hsl(12, 88%, 59%);
+$dark-blue: hsl(228, 39%, 23%);
+
+$dark-g-b: hsl(227, 12%, 61%);
+$very-d-b: hsl(233, 12%, 13%);
+$very-p-r: hsl(13, 100%, 96%);
+$very-l-g: hsl(0, 0%, 98%);
+
+/*------------------------------------*\
+    Semantics
+\*------------------------------------*/
+
+//utilities
+$c-lightest: $white;
+$c-darkest: $black;
+$c-placeholder: $light-grey;
+
+//use pallet
+$c-primary: $bright-red;
+$c-secondary: $dark-blue;
+
+//typography
+//on dark backgrounds
+$c-font-light: $very-l-g;
+
+//on light backgrounds
+$c-font-darkest: $very-d-b;
+$c-font-dark: $dark-g-b;
+
+//backgrounds
+$c-bg-light-1: $c-lightest;
+$c-bg-light-2: $very-p-r;
+$c-bg-light-3: $very-l-g;
+
+$c-bg-dark-1: $very-d-b;
+$c-bg-dark-2: $bright-red;
