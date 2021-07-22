@@ -4,21 +4,25 @@
     to only use margin bottom
     for consistancy
 \*------------------------------------*/
-
 /*------------------------------------*\
     Paddings
 \*------------------------------------*/
-$col-pd-wrapper: 0 0.5rem;
-$col-pd-inner: 0 0.5rem;
+$col-pd-wrapper: 0 1rem;
+$col-pd-inner: 0 10rem;
 
 $col-pd-wrapper-small: 0 1rem;
-$col-pd-inner-small: 0 1rem;
+$col-pd-inner-small: 0 3rem;
+
+$col-pd-wrapper-xsm: 0 1.5625rem;
+$col-pd-inner-xsm: 0 1.5rem;
 
 /*------------------------------------*\
     Margins
 \*------------------------------------*/
 
-$section-mb-sm: 3rem;
+$section-mb-sm: 6.25rem;
 $section-mb-md: 8rem;
-$section-mb-lg: 9rem;
+$section-mb-lg: 9.375rem;
 $section-mb-xl: 12rem;
+
+$ma: auto;

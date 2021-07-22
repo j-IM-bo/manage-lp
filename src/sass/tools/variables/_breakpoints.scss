@@ -4,13 +4,12 @@
 
 $breakpoints: (
     small: (
+        // tablet
         60em * 0.625
     ),
     medium: (
+        // desktop
         90em * 0.625
-    ),
-    medium-up: (
-        108em * 0.625
     ),
     large: (
         120em * 0.625

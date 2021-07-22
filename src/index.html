@@ -38,9 +38,9 @@
         <meta name="theme-color" content="#ffffff" />
     </head>
 
-    <body class="js-body stop-scrolling">
+    <body class="js-body">
         <header class="header js-header">
-            <div class="header__inner">
+            <div class="header__inner content-wrapper">
                 <a href="/" class="header__site-link">
                     <img
                         src="./images/logo.svg"
@@ -68,32 +68,47 @@
                         </li>
                     </ul>
                 </nav>
+                <a href="#" class="header__nav-btn btn--primary">
+                    <span>Get Started</span>
+                </a>
             </div>
             <!-- menu button object -->
-            <button class="menu-button js-menu-btn">
-                <span class="x"></span>
-                <span class="y"></span>
-                <span class="z"></span>
+            <button aria-label="menu" class="menu-button js-menu-btn">
+                <div>
+                    <span class="x"></span>
+                    <span class="y"></span>
+                    <span class="z"></span>
+                </div>
                 <span class="visually-hidden">Menu</span>
             </button>
             <!-- menu component -->
             <div class="menu js-menu">
                 <nav class="menu__nav">
-                    <ul class="menu__list">
+                    <ul class="menu__list js-menu-list">
                         <li class="menu__list-item js-menu-item">
-                            <a href="#" class="menu__link">Pricing</a>
+                            <a href="#" class="menu__link js-menu-link"
+                                >Pricing</a
+                            >
                         </li>
                         <li class="menu__list-item js-menu-item">
-                            <a href="#" class="menu__link">Product</a>
+                            <a href="#" class="menu__link js-menu-link"
+                                >Product</a
+                            >
                         </li>
                         <li class="menu__list-item js-menu-item">
-                            <a href="#" class="menu__link">About Us</a>
+                            <a href="#" class="menu__link js-menu-link"
+                                >About Us</a
+                            >
                         </li>
                         <li class="menu__list-item js-menu-item">
-                            <a href="#" class="menu__link">Careers</a>
+                            <a href="#" class="menu__link js-menu-link"
+                                >Careers</a
+                            >
                         </li>
                         <li class="menu__list-item js-menu-item">
-                            <a href="#" class="menu__link">Community</a>
+                            <a href="#" class="menu__link js-menu-link"
+                                >Community</a
+                            >
                         </li>
                     </ul>
                 </nav>
@@ -101,7 +116,45 @@
             <!-- /end .menu-->
         </header>
 
-        <main></main>
+        <main>
+            <!-- section hero -->
+            <section class="section section--mb">
+                <div class="hero">
+                    <img
+                        class="hero__bg"
+                        src="./images/bg-tablet-pattern.svg"
+                        alt="bg pattern"
+                    />
+                    <div class="hero__inner">
+                        <div class="hero__content content-wrapper">
+                            <div class="hero__lc">
+                                <h1>
+                                    Bring everyone together to build better
+                                    products.
+                                </h1>
+                                <p>
+                                    Manage makes it simple for software teams to
+                                    plan day-to-day tasks while keeping the
+                                    larger team goals in view.
+                                </p>
+                                <a href="#" class="btn--primary">
+                                    <span>Get Started</span>
+                                </a>
+                            </div>
+
+                            <div class="hero__rg">
+                                <div class="hero__image">
+                                    <img
+                                        src="./images/illustration-intro.svg"
+                                        alt="infographics illustration"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
         <!-- footer -->
         <footer class="footer"></footer>

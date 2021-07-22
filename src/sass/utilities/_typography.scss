@@ -2,49 +2,57 @@
     Typography
 \*------------------------------------*/
 
-h1, .h1, 
-h2, .h2, 
-h3, .h3, 
-h4, .h4, 
-h5, .h5,
-h6, .h6 {
-    margin: 0 0 3rem;
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin: 0 0 1rem;
+    color: $c-font-db;
 }
 
-h1, .h1 {
-    @include f-xl();
-}
-
-h2, .h2 {
+h1,
+.h1 {
     @include f-lg();
 }
 
-h3, .h3 {
-    // ...
+h2,
+.h2 {
     @include f-md();
 }
 
-h4, .h4 {
-    // ...
+h3,
+.h3 {
+    @include f-sm();
 }
 
-h5, .h5 {
-    @include f-reg();
-}
+// h4, .h4 {
 
-h6, .h6 {
-    // ...
-}
+// }
+
+// h5, .h5 {
+
+// }
+
+// h6, .h6 {
+
+// }
 
 p {
-    margin: 0 0 4rem 0;
+    margin: 0 0 1rem 0;
     @include f-reg();
 
-    &:last-of-type {
-        margin-bottom: 0;
-    }
+    // &:last-of-type {
+    //     margin-bottom: 0;
+    // }
 }
-
 
 /*------------------------------------*\
     Additional utility classes

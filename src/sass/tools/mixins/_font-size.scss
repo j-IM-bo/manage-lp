@@ -2,77 +2,55 @@
     Font sizes
 \*------------------------------------*/
 
-//extra large
-@mixin f-xl() {
-    font-size: 4rem;
-    line-height: 3.4rem;
-    letter-spacing: 0;
-    font-weight: 700;
-
-    @include bp(small) {
-        font-size: 5rem;
-        line-height: 4.2rem;
-    }
-
-    @include bp(medium) {
-        font-size: 7rem;
-        line-height: 6rem;
-    }
-}
-
-//large
+//large h1
 @mixin f-lg() {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -1;
+    font-weight: 700;
+
+    @include bp(medium) {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
+//medium h2
+@mixin f-md() {
+    font-size: 1.875rem;
+    line-height: 1.5rem;
     letter-spacing: 0;
     font-weight: 700;
 
-    @include bp(large) {
-        font-size: 5rem;
-        line-height: 5rem;
-    }
-}
-
-//medium
-@mixin f-md() {
-    font-size: 2rem;
-    line-height: 3.1rem;
-    letter-spacing: -0.065rem;
-    font-weight: 700;
-
     @include bp(medium) {
-        font-size: 2.6rem;
-        line-height: 3.6rem;
+        font-size: 2.5rem;
+        line-height: 2rem;
     }
 }
 
-//small
+//small h3
 @mixin f-sm() {
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: 1rem;
+    line-height: 2rem;
 
     @include bp(medium) {
-        font-size: 1.4rem;
-        line-height: 1.9rem;
+        font-size: 1.8rem;
+        line-height: 1.5rem;
     }
 }
 
-//extra small
+// extra small
 @mixin f-xs() {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 700;
 }
 
 //body copy
 @mixin f-reg() {
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 2rem;
-    font-weight: normal;
-
-    @include bp(medium) {
-        font-size: 1.6rem;
-        line-height: 3rem;
-    }
+    font-weight: 400;
 }
 
 //override

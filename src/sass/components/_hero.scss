@@ -1,0 +1,81 @@
+/*------------------------------------*\
+   Hero
+\*------------------------------------*/
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    height: fit-content;
+}
+
+.hero__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    top: -15rem;
+    right: -3rem;
+
+    @include bp(small) {
+        top: -20rem;
+        right: -10rem;
+    }
+    @include bp(medium) {
+        top: -15rem;
+        right: -7rem;
+        width: 50rem;
+        height: auto;
+    }
+}
+
+.hero__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero__content {
+    margin-top: 6.875rem;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+
+    @include bp(medium) {
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 8rem;
+    }
+}
+
+.hero__lc {
+    padding-bottom: 3rem;
+
+    @include bp(small) {
+        max-width: 30rem;
+        margin: $ma;
+    }
+    @include bp(medium) {
+        max-width: 30rem;
+        margin: auto 0;
+
+        p {
+            max-width: 21.875rem;
+        }
+    }
+}
+
+.hero__rg {
+}
+
+.hero__image {
+    @include bp(small) {
+        width: 80%;
+        margin: auto;
+    }
+    @include bp(medium) {
+        width: 100%;
+    }
+}

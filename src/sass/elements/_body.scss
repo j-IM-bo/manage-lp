@@ -3,8 +3,7 @@
 \*------------------------------------*/
 
 body {
-    @include f-reg();
-    background-color: $c-bg-light-1;
+    background-color: #ffffff;
     color: $c-font-dark;
 
     &.stop-scrolling {

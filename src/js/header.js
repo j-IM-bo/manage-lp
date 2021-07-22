@@ -2,12 +2,12 @@ export function header() {
     const header = document.querySelector(".js-header"),
         isScrolledClass = "is-scrolled";
     let lastScrollTop = 0,
-        headerTriggerPoint = 60,
+        headerTriggerPoint = 0,
         st = window.pageYOffset || document.documentElement.scrollTop;
 
     //check window size
-    updateTriggerPoint();
-    window.addEventListener("resize", updateTriggerPoint);
+    // updateTriggerPoint();
+    // window.addEventListener("resize", updateTriggerPoint);
 
     //scroll code
     if (st > lastScrollTop && st > headerTriggerPoint) {
@@ -24,11 +24,11 @@ export function header() {
     lastScrollTop = st <= 0 ? 0 : st;
 
     //update trigger point
-    function updateTriggerPoint() {
-        if (window.innerWidth <= 900) {
-            headerTriggerPoint = 0;
-        } else {
-            headerTriggerPoint = 60;
-        }
-    }
+    // function updateTriggerPoint() {
+    //     if (window.innerWidth <= 900) {
+    //         headerTriggerPoint = 0;
+    //     } else {
+    //         headerTriggerPoint = 0;
+    //     }
+    // }
 }

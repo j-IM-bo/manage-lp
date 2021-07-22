@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    Section
+\*------------------------------------*/
+
+section,
+.section {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.section--mb {
+    margin-bottom: $section-mb-sm;
+
+    @include bp(medium) {
+        margin-bottom: $section-mb-md;
+    }
+
+    @include bp(large) {
+        margin-bottom: $section-mb-lg;
+    }
+}
