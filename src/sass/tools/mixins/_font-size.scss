@@ -18,13 +18,13 @@
 //medium h2
 @mixin f-md() {
     font-size: 1.875rem;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     letter-spacing: 0;
     font-weight: 700;
 
     @include bp(medium) {
         font-size: 2.5rem;
-        line-height: 2rem;
+        line-height: 3rem;
     }
 }
 
@@ -32,11 +32,6 @@
 @mixin f-sm() {
     font-size: 1rem;
     line-height: 2rem;
-
-    @include bp(medium) {
-        font-size: 1.8rem;
-        line-height: 1.5rem;
-    }
 }
 
 // extra small

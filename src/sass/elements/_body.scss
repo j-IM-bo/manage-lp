@@ -15,3 +15,22 @@ body {
         overflow: hidden;
     }
 }
+
+// background pattern 2
+.bg2 {
+    position: absolute;
+    right: -15rem;
+    top: 28rem;
+    z-index: -1;
+
+    @include bp(small) {
+        width: 80%;
+        left: -25rem;
+        top: 38rem;
+    }
+    @include bp(medium) {
+        width: 60%;
+        left: -28rem;
+        top: 70rem;
+    }
+}

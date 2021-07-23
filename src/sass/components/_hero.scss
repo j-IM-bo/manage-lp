@@ -12,15 +12,16 @@
 
 .hero__bg {
     position: absolute;
-    width: 100%;
+    width: 130%;
     height: 100%;
     object-fit: contain;
-    top: -15rem;
-    right: -3rem;
+    top: -18.5rem;
+    right: -10.5rem;
 
     @include bp(small) {
-        top: -20rem;
-        right: -10rem;
+        width: 120%;
+        top: -25rem;
+        right: -20rem;
     }
     @include bp(medium) {
         top: -15rem;
