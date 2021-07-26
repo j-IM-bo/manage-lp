@@ -4,12 +4,13 @@ import "./sass/style.scss";
 //js
 import { debounce } from "./js/utilities/debounce";
 import { animateOnScroll } from "./js/utilities/aos";
-import { carousel } from "./js/carousel";
+import { loader } from "./js/loader";
 import { menu } from "./js/menu";
 import { header } from "./js/header";
+import { carousel } from "./js/carousel";
 import { validateEmail } from "./js/validateEmail";
 
-validateEmail();
+loader();
 
 function init() {
     menu();
