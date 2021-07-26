@@ -5,6 +5,7 @@
 body {
     background-color: #ffffff;
     color: $c-font-dark;
+    overflow-x: hidden;
 
     &.stop-scrolling {
         position: absolute;
@@ -19,18 +20,18 @@ body {
 // background pattern 2
 .bg2 {
     position: absolute;
-    right: -15rem;
-    top: 28rem;
+    right: -14rem;
+    top: 29rem;
     z-index: -1;
 
     @include bp(small) {
         width: 80%;
         left: -25rem;
-        top: 38rem;
+        top: 46rem;
     }
     @include bp(medium) {
         width: 60%;
-        left: -28rem;
+        left: -35rem;
         top: 70rem;
     }
 }
