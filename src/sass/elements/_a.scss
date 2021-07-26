@@ -1,0 +1,17 @@
+/*------------------------------------*\
+   Links
+\*------------------------------------*/
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: $c-font-db;
+    @include f-xs();
+    font-weight: 500;
+    cursor: pointer;
+
+    &:active,
+    &:focus {
+        outline: none;
+    }
+}

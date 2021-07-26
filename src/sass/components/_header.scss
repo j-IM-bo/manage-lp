@@ -1,0 +1,108 @@
+/*------------------------------------*\
+   Header
+\*------------------------------------*/
+
+.header {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    @include z-index(level4);
+    transition: $transition;
+
+    @include bp(small) {
+    }
+
+    @include bp(medium) {
+        height: 6rem;
+    }
+
+    &.is-scrolled {
+        position: fixed;
+        top: 0;
+        background-color: $white;
+        box-shadow: 0 0 10px -6px $very-d-b;
+    }
+}
+
+.header__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__site-link {
+    display: block;
+    position: relative;
+    width: 6.875rem;
+    height: auto;
+    margin-top: 0.6rem;
+    @include z-index(level6);
+
+    @include bp(medium) {
+        width: 9.2rem;
+        margin-top: 0;
+    }
+}
+
+.header__site-nav {
+    display: none;
+
+    @include bp(medium) {
+        display: block;
+    }
+}
+
+.header__nav-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav-list-item {
+    position: relative;
+    margin: 0 1rem;
+}
+
+.header__nav-link {
+    transition: $transition;
+    margin-bottom: 0.5rem;
+    height: 100%;
+    font-size: 0.82rem;
+
+    &::after {
+        @include pseudo;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0.1rem;
+        display: block;
+        background-color: $c-primary;
+        transform-origin: center;
+        transform: scaleX(0);
+        transition: $transition;
+    }
+
+    &:hover {
+        &::after {
+            transform: scaleX(1);
+        }
+    }
+}
+
+.header__nav-btn {
+    display: none;
+
+    @include bp(medium) {
+        display: block;
+    }
+}
+
+section {
+    height: 600px;
+}

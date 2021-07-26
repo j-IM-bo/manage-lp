@@ -1,0 +1,57 @@
+/*------------------------------------*\
+   Buttons
+\*------------------------------------*/
+
+.btn--primary, 
+.btn--secondary {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.8rem;
+    border-radius: 4rem;
+    text-align: center;
+    @include f-xs();
+    font-size: 0.82rem;
+    line-height: 1.4rem;
+    transition: $transition;
+    box-shadow: 0 5px 10px 0 #ac624f4d;
+}
+
+.btn--primary {
+    background-color: $c-primary;
+    color: $c-font-light;
+
+    &:hover {
+        background-color: #f98f75;
+    }
+}
+
+.btn--secondary {
+    background-color: $white;
+    color: $c-primary;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+//widths
+.btn--w-none {
+    width: fit-content;
+}
+
+.btn--w-sm {
+    min-width: 13rem;
+}
+
+.btn--w-md {
+    min-width: 15.5rem;
+}
+
+.btn--w-lg {
+    min-width: 18.8rem;
+}
+
+.btn--w-xl {
+    min-width: 24rem;
+}
