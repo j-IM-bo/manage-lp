@@ -57,6 +57,7 @@
     margin-bottom: 3.125rem;
 
     svg {
+        cursor: pointer;
         &:hover {
             path {
                 fill: $c-primary;
