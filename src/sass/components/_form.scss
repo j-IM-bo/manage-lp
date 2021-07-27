@@ -10,7 +10,10 @@ form,
 
 form {
     display: flex;
-    text-align: right;
+
+    @include bp(medium) {
+        text-align: right;
+    }
 }
 
 input[type="text"] {
