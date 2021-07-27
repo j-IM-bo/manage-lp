@@ -44,6 +44,7 @@
 .footer__site-link {
     order: 2;
     margin-bottom: 3.4rem;
+    align-self: center;
 
     @include bp(medium) {
         order: 1;

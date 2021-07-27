@@ -5,14 +5,14 @@
 .form,
 form,
 .form-field {
-    display: inline;
+    display: inline-flex;
     width: 100%;
 }
 
 input[type="text"] {
     display: inline;
     margin-right: 0.5rem;
-    flex: 8;
+    flex: 9;
 }
 input[type="submit"] {
     background: $c-bg-dark-3;
@@ -28,11 +28,7 @@ input[type="submit"] {
 input[type="submit"],
 input[type="text"] {
     font-size: 0.8125rem;
-    margin-bottom: 3.75rem;
-
-    @include bp(medium) {
-        margin-bottom: 0;
-    }
+    // margin-bottom: 3.75rem;
 }
 
 .form-field.error input {
