@@ -5,6 +5,7 @@
 .form,
 form,
 .form-field {
+    position: relative;
     display: inline-flex;
     justify-content: center;
     width: 100%;
@@ -46,7 +47,7 @@ input[type="text"] {
 
 .form-field small {
     position: absolute;
-    top: 3.4rem;
-    left: 2rem;
+    justify-content: center;
+    bottom: -1.5rem;
     color: red;
 }
