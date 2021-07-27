@@ -7,6 +7,7 @@ form,
 .form-field {
     display: inline-flex;
     width: 100%;
+    margin-bottom: 3.75rem;
 }
 
 input[type="text"] {
@@ -28,7 +29,6 @@ input[type="submit"] {
 input[type="submit"],
 input[type="text"] {
     font-size: 0.8125rem;
-    // margin-bottom: 3.75rem;
 }
 
 .form-field.error input {
