@@ -8,6 +8,7 @@ export function carousel() {
         prevNextButtons: false,
         pageDots: true,
         draggable: true,
+        cellSelector: ".carousel__slide",
         // imagesLoaded: true,
         // setGallerySize: true,
         wrapAround: true,

@@ -35,6 +35,9 @@
     padding: $col-pd-wrapper;
     padding-bottom: 2rem;
     margin: 0 1rem;
+    display: flex;
+    align-items: stretch;
+    min-height: 100%;
 
     p {
         font-size: 0.875rem;
