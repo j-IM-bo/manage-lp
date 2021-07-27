@@ -79,14 +79,13 @@
 }
 
 .footer__mc {
-    display: flex;
+    display: inline-block;
     justify-content: space-evenly;
     order: 2;
     // width: 100%;
     margin-bottom: 1.5rem;
 
     @include bp(small) {
-        justify-content: space-evenly;
         // width: 50%;
     }
 }
@@ -111,7 +110,7 @@
     position: relative;
     order: 1;
     // width: 100%;
-    display: flex;
+    display: block;
 
     @include bp(small) {
         order: 3;
