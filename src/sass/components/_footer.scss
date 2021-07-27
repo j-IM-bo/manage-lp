@@ -86,7 +86,7 @@
 
     @include bp(small) {
         justify-content: space-evenly;
-        width: 30%;
+        width: 40%;
     }
 }
 // .footer__nav-list {
@@ -114,7 +114,7 @@
 
     @include bp(small) {
         order: 3;
-        width: 50%;
+        width: 40%;
     }
 }
 
