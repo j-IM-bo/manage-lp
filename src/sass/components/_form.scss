@@ -2,13 +2,11 @@
    Email form
 \*------------------------------------*/
 
-// .form,
-// form,
-// .form-field {
-// }
-
-// input {
-// }
+.form,
+form,
+.form-field {
+    width: 100%;
+}
 
 input[type="text"] {
     display: inline;
