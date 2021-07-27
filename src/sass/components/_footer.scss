@@ -43,7 +43,6 @@
 }
 .footer__site-link {
     order: 2;
-    align-self: center;
     margin-bottom: 3.4rem;
 
     @include bp(medium) {
@@ -53,7 +52,7 @@
 }
 .footer__socials {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     order: 1;
     margin-bottom: 3.125rem;
 
@@ -91,6 +90,7 @@
 .mc__inner {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 // .footer__nav-list {
