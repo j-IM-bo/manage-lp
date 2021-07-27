@@ -79,7 +79,7 @@
 }
 
 .footer__mc {
-    display: inline-block;
+    display: block;
     justify-content: space-evenly;
     order: 2;
     // width: 100%;
@@ -89,8 +89,9 @@
         // width: 50%;
     }
 }
-// .footer__nav-list {
-// }
+.mc__inner {
+    display: flex;
+}
 .footer__nav-list-item {
     margin-bottom: 1.56rem;
 }
