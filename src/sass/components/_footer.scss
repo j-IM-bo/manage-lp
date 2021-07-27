@@ -109,11 +109,7 @@
 .footer__rc {
     position: relative;
     order: 1;
-    width: 100%;
-    display: flex;
-    justify-content: stretch;
-
-    @include bp(small) {
+    width: 100% @include bp(small) {
         order: 3;
         width: 40%;
     }
