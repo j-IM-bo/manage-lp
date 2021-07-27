@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     order: 3;
-    width: 100%;
+    // width: 100%;
 
     @include bp(small) {
         order: 1;
@@ -82,7 +82,7 @@
     display: flex;
     justify-content: space-evenly;
     order: 2;
-    width: 100%;
+    // width: 100%;
     margin-bottom: 1.5rem;
 
     @include bp(small) {
@@ -110,7 +110,7 @@
 .footer__rc {
     position: relative;
     order: 1;
-    width: 100%;
+    // width: 100%;
     display: flex;
 
     @include bp(small) {
