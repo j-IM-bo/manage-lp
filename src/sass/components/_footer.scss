@@ -111,6 +111,7 @@
     order: 1;
     width: 100%;
     display: flex;
+    justify-content: stretch;
 
     @include bp(small) {
         order: 3;
