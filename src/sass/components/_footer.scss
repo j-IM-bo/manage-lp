@@ -92,6 +92,10 @@
 .mc__inner {
     display: flex;
 }
+
+.footer__nav-list {
+    margin-right: 2rem;
+}
 .footer__nav-list-item {
     margin-bottom: 1.56rem;
 }
@@ -110,12 +114,10 @@
 .footer__rc {
     position: relative;
     order: 1;
-    // width: 100%;
     display: block;
 
     @include bp(small) {
         order: 3;
-        // width: 30%;
     }
 }
 
