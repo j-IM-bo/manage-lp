@@ -110,6 +110,7 @@
     position: relative;
     order: 1;
     width: 100%;
+    display: flex;
 
     @include bp(small) {
         order: 3;
